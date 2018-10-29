@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import psycopg2
 
 DBNAME = "news"
@@ -51,12 +52,11 @@ def get_log():
     db.close()
 
 
-f = open("logs.txt", "w+")
-f.write("Logs Analysis \r\n")
-f.write('''
-========================================================
-========== \r\n\r\n
-''')
-get_log()
-f.close()
-print("information has been writtin on logs.text")
+if __name__ == '__main__':
+
+    f = open("logs.txt", "w+")
+    f.write("Logs Analysis\r\n")
+    f.write('''====================================================\r\n\r\n''')
+    get_log()
+    f.close()
+    print("information has been writtin on logs.text")

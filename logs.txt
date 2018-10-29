@@ -1,5 +1,5 @@
-Logs Analysis 
-================================================================== 
+Logs Analysis
+====================================================
 
 Most popular three articles of all time:
 "Candidate is jerk, alleges rival" - 338647 views
